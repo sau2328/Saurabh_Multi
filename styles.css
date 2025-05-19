@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+h1, h2, h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #D4AF37; /* Subtle gold underline for headings */
+  padding-bottom: 5px;
+}
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  color: #D4AF37; /* Gold on hover */
+  text-decoration: underline;
+}
+.chart-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #D4AF37; /* Gold border for chart */
+  border-radius: 5px;
+}
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+  display: block;
+  border: 2px solid #D4AF37; /* Gold border for profile image */
+}
